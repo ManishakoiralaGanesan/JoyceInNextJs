@@ -1,0 +1,63 @@
+.joyceTable{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: auto; 
+}
+.joyceTabTd{
+    border-bottom: 1px solid rgb(225, 222, 222);
+    padding: 14px;
+    color: rgb(45, 44, 44);
+}
+.joyceTabTh{
+    border-bottom: 1px solid rgb(225, 220, 220);
+    padding: 10px;
+    color: gray;
+    font-weight: normal;
+}
+.tableFooterContainer{
+  width: 100%;
+  padding: 25px;
+  position: relative;
+
+}
+.tableFooter  {
+  display: flex;
+  position: absolute;
+  right: 0;
+
+
+}
+.tableItem{
+  width: 300px;
+  display: flex;
+}
+.tableItemCount{
+  width: 150px;}
+.tableFooterBtns{
+  width: 100px;
+}
+.previousBtn{
+  border: none;
+  width: 45px;
+  background-color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nextButton{
+  border: none;
+  width: 45px;
+  background-color: white;
+  font-size: 18px;
+  cursor:pointer
+}
+.previousBtn:disabled,.nextButton:disabled{
+  color: rgb(173, 171, 171); 
+}
+.tabItemsSelect{
+  border: none;
+  width: 60px;
+  border-bottom: 1px solid rgb(201, 198, 198);
+  padding: 4px;
+  
+}

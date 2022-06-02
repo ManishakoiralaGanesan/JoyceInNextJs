@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*.joyce-card{
+  margin: 20px;
+  padding: 10px;
+ transition: 0.3s;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}*/
+.form-field{
+  margin-bottom:20px ;
+  
+}
+.tabTitle{
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px;
+  margin-bottom: 40px;
+}

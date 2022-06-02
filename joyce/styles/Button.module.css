@@ -1,0 +1,11 @@
+.joyceButton{
+    width: 170px;
+    padding: 16px;
+    background-color: rgb(10, 67, 152);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
